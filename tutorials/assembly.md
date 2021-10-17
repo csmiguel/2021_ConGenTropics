@@ -22,8 +22,8 @@ Map the sequencing reads from USNM590332 to the reference using the mem algorith
 
 ```
 bwa mem references/NC_029888.fasta \
- intermediate/USNM590332_trimmed_1.fastq \
- intermediate/USNM590332_trimmed_2.fastq > intermediate/USNM590332.sam
+ intermediate/USNM590332_trimmed_1.fastq.gz \
+ intermediate/USNM590332_trimmed_2.fastq.gz > intermediate/USNM590332.sam
 ```
 Check the Sequence Alignment Map (SAM) [format](https://samtools.github.io/hts-specs/SAMv1.pdf). Run `head intermediate/USNM590332.sam`.
 ![credits: https://hbctraining.github.io](/figs/sam_bam.png "SAM format").
@@ -33,7 +33,7 @@ Check the Sequence Alignment Map (SAM) [format](https://samtools.github.io/hts-s
 **samtools** provides a set of tools to work with SAM files, or their binary format (BAM).
 We will filter low-quality mapping reads, remove unmapped reads, sort the sequences and remove the PCR duplicates.
 
-Using `samtools view ` we can create a binary file (BAM) `-b` and remove the unmapped reads `-F4`. The output needs to be sorted, that means sorting the mapped reads according to their coordinates in the reference: `samtools sort -o `. The resulting file will be ready for duplicate removal. This step is necessary as during the preparation of libraries for Illumina there can be PCR steps in which PCR errors can be introduced in the sequences. By chance those errors can become in high frequencies. So, if they are not removed they can be mistaken with real variation. The strategy followed by samtools to remove PCR duplicates is to eliminate those reads with exact same mapping coordinates: `samtoos rmdup -s `.
+Using `samtools view ` we can create a binary file (BAM) `-b` and remove the unmapped reads `-F4`. The output needs to be sorted. That means sorting the mapped reads according to their coordinates in the reference: `samtools sort`. The resulting file will be ready for duplicate removal. This step is necessary as during the preparation of libraries for Illumina there can be PCR steps in which PCR errors can be introduced in the sequences. By chance those errors can become in high frequencies. So, if they are not removed they can be mistaken with real variation. The strategy followed by samtools to remove PCR duplicates is to eliminate those reads with exact same mapping coordinates: `samtoos rmdup`.
 
 ![credits: http://www.htslib.org/doc/samtools.html](/figs/duplicate_example.png "mark duplicates").
 
@@ -52,7 +52,7 @@ There are many softwares to visualize BAM/SAM files. We can use Geneious (visual
 
 From the alignment file we need to extract the information for downstream analysis.
 + call variants: we are not going over it. But if you are interested check [GATK](https://gatk.broadinstitute.org/hc/en-us/categories/360002302312).
-+ get consensus sequences. This can be done very straightforward and freely in Geneious. Other more complex options are `samtools mpileup`, [vcf-consensus](http://vcftools.sourceforge.net/perl_module.html#vcf-consensus), and [GATK](https://gatk.broadinstitute.org/hc/en-us/articles/360037594571-FastaAlternateReferenceMaker).
++ get consensus sequences. This can be done straightforward and freely in Geneious. Other (more complex) options are `samtools mpileup`, [vcf-consensus](http://vcftools.sourceforge.net/perl_module.html#vcf-consensus) and [GATK](https://gatk.broadinstitute.org/hc/en-us/articles/360037594571-FastaAlternateReferenceMaker).
 
 ## NOVOPlasty
 Reconstruct the mitogenome using NOVOPlasty. As a seed we can use any homologous sequence not too divergent.

@@ -17,7 +17,8 @@ MAC or LINUX users can install the required softwares following the links below.
 + [bwa](https://github.com/lh3/bwa)
 + [NOVOplasty](https://github.com/ndierckx/NOVOPlasty)
 + [Geneious](https://www.geneious.com/)
-+ cutadapt
++ [cutadapt](https://cutadapt.readthedocs.io)
++ [perl](https://www.perl.org/)
 
 
 ## Instructions
@@ -42,7 +43,7 @@ rm -rf output/*
 Raw sequences must be trimmed using cutadapt.
 ```
 cutadapt -a AGATCGGAAGAGC -A AGATCGGAAGAGC -e 0.16 -m 30 -q 10 \
--o intermediate/USNM590332_1_trimmed.fastq \
--p intermediate/USNM590332_2_trimmed.fastq \
+-o intermediate/USNM590332_trimmed_1.fastq \
+-p intermediate/USNM590332_trimmed_2.fastq \
 rawSeqs/USNM590332_1.fastq.gz rawSeqs/USNM590332_2.fastq.gz
 ```
