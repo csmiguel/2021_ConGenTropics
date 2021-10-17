@@ -43,7 +43,7 @@ rm -rf output/*
 Raw sequences must be trimmed using cutadapt.
 ```
 cutadapt -a AGATCGGAAGAGC -A AGATCGGAAGAGC -e 0.16 -m 30 -q 10 \
--o intermediate/USNM590332_trimmed_1.fastq \
--p intermediate/USNM590332_trimmed_2.fastq \
+-o intermediate/USNM590332_trimmed_1.fastq.gz \
+-p intermediate/USNM590332_trimmed_2.fastq.gz \
 rawSeqs/USNM590332_1.fastq.gz rawSeqs/USNM590332_2.fastq.gz
 ```
