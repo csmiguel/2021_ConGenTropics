@@ -19,8 +19,8 @@ Insert size           = 200
 Platform              = illumina
 Single/Paired         = PE
 Combined reads        = 
-Forward reads         = intermediate/1.fastq
-Reverse reads         = intermediate/2.fastq
+Forward reads         = intermediate/USNM590332_1_trimmed.fastq
+Reverse reads         = intermediate/USNM590332_1_trimmed.fastq
 Heteroplasmy:
 -----------------------
 MAF                   =
