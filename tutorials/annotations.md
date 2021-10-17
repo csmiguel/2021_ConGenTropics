@@ -4,16 +4,15 @@ Genome annotation is the process of attaching biological information to sequence
 + **structure** + **function** + **biological information**
 
 Example:
-Genbank format of [referencesNC_029888.b](referencesNC_029888.gb).
-GFF format of [referencesNC_029888.gff3](referencesNC_029888.gff3).
+Genbank format of [NC_029888](/references/NC_029888.gb).
+GFF format of [NC_029888](/references/NC_029888.gff3).
 
-![GFF format](figs/gff.png "GFF format").
-
+![GFF format](/figs/gff.png "GFF format").
 
 ## How to annotate mitochondrial genomes
 
-I recommend using [MITOS web server]http://mitos2.bioinf.uni-leipzig.de/index.py. It is also available in Galaxy.
-Check documentation [here]http://mitos.bioinf.uni-leipzig.de/help.py.
+I recommend using [MITOS web server](http://mitos2.bioinf.uni-leipzig.de/index.py). It is also available in Galaxy.
+Check documentation [here](http://mitos.bioinf.uni-leipzig.de/help.py).
 
 Other tools: MitoZ annotation module, Geneious transfer annotation tool paid version.
 

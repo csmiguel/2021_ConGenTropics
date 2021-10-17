@@ -58,6 +58,6 @@ From the alignment file we need to extract the information for downstream analys
 Reconstruct the mitogenome using NOVOPlasty. As a seed we can use any homologous sequence not too divergent.
 For instance, we will use cytochrome b from *Rattus norvegicus* [AB033713](https://www.ncbi.nlm.nih.gov/nuccore/AB033713).
 ```
-perl NOVOPlasty3.7.pl -c intermediate/novoplasty-config.txt
+perl NOVOPlasty3.7.pl -c etc/novoplasty-config.txt
 ```
-Check contigs and [config file](/intermediate/novoplasty-config.txt).
+Check contigs and [config file](/etc/novoplasty-config.txt).
