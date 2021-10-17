@@ -1,0 +1,104 @@
+##sequence-region NC_029888.1 1 16309
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=83755
+NC_029888.1	RefSeq	region	1	16309	.	+	.	ID=NC_029888.1:1..16309;Dbxref=taxon:83755;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;isolate=RT1;mol_type=genomic DNA
+NC_029888.1	RefSeq	gene	1	69	.	+	.	ID=gene-A5434_gt01;Dbxref=GeneID:27218093;Name=A5434_gt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt01
+NC_029888.1	RefSeq	tRNA	1	69	.	+	.	ID=rna-A5434_gt01;Parent=gene-A5434_gt01;Dbxref=GeneID:27218093;gbkey=tRNA;locus_tag=A5434_gt01;product=tRNA-Phe
+NC_029888.1	RefSeq	exon	1	69	.	+	.	ID=exon-A5434_gt01-1;Parent=rna-A5434_gt01;Dbxref=GeneID:27218093;gbkey=tRNA;locus_tag=A5434_gt01;product=tRNA-Phe
+NC_029888.1	RefSeq	gene	70	1031	.	+	.	ID=gene-A5434_gr02;Dbxref=GeneID:27218070;Name=A5434_gr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=A5434_gr02
+NC_029888.1	RefSeq	rRNA	70	1031	.	+	.	ID=rna-A5434_gr02;Parent=gene-A5434_gr02;Dbxref=GeneID:27218070;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=A5434_gr02;product=12S ribosomal RNA
+NC_029888.1	RefSeq	exon	70	1031	.	+	.	ID=exon-A5434_gr02-1;Parent=rna-A5434_gr02;Dbxref=GeneID:27218070;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=A5434_gr02;product=12S ribosomal RNA
+NC_029888.1	RefSeq	gene	1032	1099	.	+	.	ID=gene-A5434_gt02;Dbxref=GeneID:27218071;Name=A5434_gt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt02
+NC_029888.1	RefSeq	tRNA	1032	1099	.	+	.	ID=rna-A5434_gt02;Parent=gene-A5434_gt02;Dbxref=GeneID:27218071;gbkey=tRNA;locus_tag=A5434_gt02;product=tRNA-Val
+NC_029888.1	RefSeq	exon	1032	1099	.	+	.	ID=exon-A5434_gt02-1;Parent=rna-A5434_gt02;Dbxref=GeneID:27218071;gbkey=tRNA;locus_tag=A5434_gt02;product=tRNA-Val
+NC_029888.1	RefSeq	gene	1100	2665	.	+	.	ID=gene-A5434_gr01;Dbxref=GeneID:27218072;Name=A5434_gr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=A5434_gr01
+NC_029888.1	RefSeq	rRNA	1100	2665	.	+	.	ID=rna-A5434_gr01;Parent=gene-A5434_gr01;Dbxref=GeneID:27218072;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=A5434_gr01;product=16S ribosomal RNA
+NC_029888.1	RefSeq	exon	1100	2665	.	+	.	ID=exon-A5434_gr01-1;Parent=rna-A5434_gr01;Dbxref=GeneID:27218072;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=A5434_gr01;product=16S ribosomal RNA
+NC_029888.1	RefSeq	gene	2666	2740	.	+	.	ID=gene-A5434_gt03;Dbxref=GeneID:27218073;Name=A5434_gt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt03
+NC_029888.1	RefSeq	tRNA	2666	2740	.	+	.	ID=rna-A5434_gt03;Parent=gene-A5434_gt03;Dbxref=GeneID:27218073;codons=2%2C3;gbkey=tRNA;locus_tag=A5434_gt03;product=tRNA-Leu
+NC_029888.1	RefSeq	exon	2666	2740	.	+	.	ID=exon-A5434_gt03-1;Parent=rna-A5434_gt03;Dbxref=GeneID:27218073;codons=2%2C3;gbkey=tRNA;locus_tag=A5434_gt03;product=tRNA-Leu
+NC_029888.1	RefSeq	gene	2741	3695	.	+	.	ID=gene-A5434_gp13;Dbxref=GeneID:27218074;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=A5434_gp13
+NC_029888.1	RefSeq	CDS	2741	3695	.	+	0	ID=cds-YP_009245641.1;Parent=gene-A5434_gp13;Dbxref=Genbank:YP_009245641.1,GeneID:27218074;Name=YP_009245641.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=A5434_gp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009245641.1;transl_except=(pos:3695..3695%2Caa:TERM);transl_table=2
+NC_029888.1	RefSeq	gene	3696	3764	.	+	.	ID=gene-A5434_gt04;Dbxref=GeneID:27218057;Name=A5434_gt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt04
+NC_029888.1	RefSeq	tRNA	3696	3764	.	+	.	ID=rna-A5434_gt04;Parent=gene-A5434_gt04;Dbxref=GeneID:27218057;gbkey=tRNA;locus_tag=A5434_gt04;product=tRNA-Ile
+NC_029888.1	RefSeq	exon	3696	3764	.	+	.	ID=exon-A5434_gt04-1;Parent=rna-A5434_gt04;Dbxref=GeneID:27218057;gbkey=tRNA;locus_tag=A5434_gt04;product=tRNA-Ile
+NC_029888.1	RefSeq	gene	3762	3832	.	-	.	ID=gene-A5434_gt05;Dbxref=GeneID:27218075;Name=A5434_gt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt05
+NC_029888.1	RefSeq	tRNA	3762	3832	.	-	.	ID=rna-A5434_gt05;Parent=gene-A5434_gt05;Dbxref=GeneID:27218075;gbkey=tRNA;locus_tag=A5434_gt05;product=tRNA-Gln
+NC_029888.1	RefSeq	exon	3762	3832	.	-	.	ID=exon-A5434_gt05-1;Parent=rna-A5434_gt05;Dbxref=GeneID:27218075;gbkey=tRNA;locus_tag=A5434_gt05;product=tRNA-Gln
+NC_029888.1	RefSeq	gene	3836	3904	.	+	.	ID=gene-A5434_gt06;Dbxref=GeneID:27218076;Name=A5434_gt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt06
+NC_029888.1	RefSeq	tRNA	3836	3904	.	+	.	ID=rna-A5434_gt06;Parent=gene-A5434_gt06;Dbxref=GeneID:27218076;gbkey=tRNA;locus_tag=A5434_gt06;product=tRNA-Met
+NC_029888.1	RefSeq	exon	3836	3904	.	+	.	ID=exon-A5434_gt06-1;Parent=rna-A5434_gt06;Dbxref=GeneID:27218076;gbkey=tRNA;locus_tag=A5434_gt06;product=tRNA-Met
+NC_029888.1	RefSeq	gene	3905	4940	.	+	.	ID=gene-A5434_gp12;Dbxref=GeneID:27218077;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=A5434_gp12
+NC_029888.1	RefSeq	CDS	3905	4940	.	+	0	ID=cds-YP_009245642.1;Parent=gene-A5434_gp12;Dbxref=Genbank:YP_009245642.1,GeneID:27218077;Name=YP_009245642.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=A5434_gp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009245642.1;transl_except=(pos:4940..4940%2Caa:TERM);transl_table=2
+NC_029888.1	RefSeq	gene	4941	5006	.	+	.	ID=gene-A5434_gt07;Dbxref=GeneID:27218058;Name=A5434_gt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt07
+NC_029888.1	RefSeq	tRNA	4941	5006	.	+	.	ID=rna-A5434_gt07;Parent=gene-A5434_gt07;Dbxref=GeneID:27218058;gbkey=tRNA;locus_tag=A5434_gt07;product=tRNA-Trp
+NC_029888.1	RefSeq	exon	4941	5006	.	+	.	ID=exon-A5434_gt07-1;Parent=rna-A5434_gt07;Dbxref=GeneID:27218058;gbkey=tRNA;locus_tag=A5434_gt07;product=tRNA-Trp
+NC_029888.1	RefSeq	gene	5008	5076	.	-	.	ID=gene-A5434_gt08;Dbxref=GeneID:27218078;Name=A5434_gt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt08
+NC_029888.1	RefSeq	tRNA	5008	5076	.	-	.	ID=rna-A5434_gt08;Parent=gene-A5434_gt08;Dbxref=GeneID:27218078;gbkey=tRNA;locus_tag=A5434_gt08;product=tRNA-Ala
+NC_029888.1	RefSeq	exon	5008	5076	.	-	.	ID=exon-A5434_gt08-1;Parent=rna-A5434_gt08;Dbxref=GeneID:27218078;gbkey=tRNA;locus_tag=A5434_gt08;product=tRNA-Ala
+NC_029888.1	RefSeq	gene	5079	5150	.	-	.	ID=gene-A5434_gt09;Dbxref=GeneID:27218079;Name=A5434_gt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt09
+NC_029888.1	RefSeq	tRNA	5079	5150	.	-	.	ID=rna-A5434_gt09;Parent=gene-A5434_gt09;Dbxref=GeneID:27218079;gbkey=tRNA;locus_tag=A5434_gt09;product=tRNA-Asn
+NC_029888.1	RefSeq	exon	5079	5150	.	-	.	ID=exon-A5434_gt09-1;Parent=rna-A5434_gt09;Dbxref=GeneID:27218079;gbkey=tRNA;locus_tag=A5434_gt09;product=tRNA-Asn
+NC_029888.1	RefSeq	origin_of_replication	5151	5181	.	-	.	ID=id-NC_029888.1:5151..5181;Note=origin of L-strand replication;gbkey=rep_origin
+NC_029888.1	RefSeq	gene	5182	5248	.	-	.	ID=gene-A5434_gt10;Dbxref=GeneID:27218080;Name=A5434_gt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt10
+NC_029888.1	RefSeq	tRNA	5182	5248	.	-	.	ID=rna-A5434_gt10;Parent=gene-A5434_gt10;Dbxref=GeneID:27218080;gbkey=tRNA;locus_tag=A5434_gt10;product=tRNA-Cys
+NC_029888.1	RefSeq	exon	5182	5248	.	-	.	ID=exon-A5434_gt10-1;Parent=rna-A5434_gt10;Dbxref=GeneID:27218080;gbkey=tRNA;locus_tag=A5434_gt10;product=tRNA-Cys
+NC_029888.1	RefSeq	gene	5252	5317	.	-	.	ID=gene-A5434_gt11;Dbxref=GeneID:27218081;Name=A5434_gt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt11
+NC_029888.1	RefSeq	tRNA	5252	5317	.	-	.	ID=rna-A5434_gt11;Parent=gene-A5434_gt11;Dbxref=GeneID:27218081;gbkey=tRNA;locus_tag=A5434_gt11;product=tRNA-Tyr
+NC_029888.1	RefSeq	exon	5252	5317	.	-	.	ID=exon-A5434_gt11-1;Parent=rna-A5434_gt11;Dbxref=GeneID:27218081;gbkey=tRNA;locus_tag=A5434_gt11;product=tRNA-Tyr
+NC_029888.1	RefSeq	gene	5319	6863	.	+	.	ID=gene-A5434_gp11;Dbxref=GeneID:27218082;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=A5434_gp11
+NC_029888.1	RefSeq	CDS	5319	6863	.	+	0	ID=cds-YP_009245643.1;Parent=gene-A5434_gp11;Dbxref=Genbank:YP_009245643.1,GeneID:27218082;Name=YP_009245643.1;Note=COI;gbkey=CDS;gene=COX1;locus_tag=A5434_gp11;product=cytochrome c oxidase subunit I;protein_id=YP_009245643.1;transl_table=2
+NC_029888.1	RefSeq	gene	6861	6929	.	-	.	ID=gene-A5434_gt12;Dbxref=GeneID:27218059;Name=A5434_gt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt12
+NC_029888.1	RefSeq	tRNA	6861	6929	.	-	.	ID=rna-A5434_gt12;Parent=gene-A5434_gt12;Dbxref=GeneID:27218059;codons=4%2C5%2C6%2C7;gbkey=tRNA;locus_tag=A5434_gt12;product=tRNA-Ser
+NC_029888.1	RefSeq	exon	6861	6929	.	-	.	ID=exon-A5434_gt12-1;Parent=rna-A5434_gt12;Dbxref=GeneID:27218059;codons=4%2C5%2C6%2C7;gbkey=tRNA;locus_tag=A5434_gt12;product=tRNA-Ser
+NC_029888.1	RefSeq	gene	6933	7000	.	+	.	ID=gene-A5434_gt13;Dbxref=GeneID:27218083;Name=A5434_gt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt13
+NC_029888.1	RefSeq	tRNA	6933	7000	.	+	.	ID=rna-A5434_gt13;Parent=gene-A5434_gt13;Dbxref=GeneID:27218083;gbkey=tRNA;locus_tag=A5434_gt13;product=tRNA-Asp
+NC_029888.1	RefSeq	exon	6933	7000	.	+	.	ID=exon-A5434_gt13-1;Parent=rna-A5434_gt13;Dbxref=GeneID:27218083;gbkey=tRNA;locus_tag=A5434_gt13;product=tRNA-Asp
+NC_029888.1	RefSeq	gene	7002	7685	.	+	.	ID=gene-A5434_gp10;Dbxref=GeneID:27218084;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=A5434_gp10
+NC_029888.1	RefSeq	CDS	7002	7685	.	+	0	ID=cds-YP_009245644.1;Parent=gene-A5434_gp10;Dbxref=Genbank:YP_009245644.1,GeneID:27218084;Name=YP_009245644.1;Note=COII;gbkey=CDS;gene=COX2;locus_tag=A5434_gp10;product=cytochrome c oxidase subunit II;protein_id=YP_009245644.1;transl_table=2
+NC_029888.1	RefSeq	gene	7689	7752	.	+	.	ID=gene-A5434_gt14;Dbxref=GeneID:27218060;Name=A5434_gt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt14
+NC_029888.1	RefSeq	tRNA	7689	7752	.	+	.	ID=rna-A5434_gt14;Parent=gene-A5434_gt14;Dbxref=GeneID:27218060;gbkey=tRNA;locus_tag=A5434_gt14;product=tRNA-Lys
+NC_029888.1	RefSeq	exon	7689	7752	.	+	.	ID=exon-A5434_gt14-1;Parent=rna-A5434_gt14;Dbxref=GeneID:27218060;gbkey=tRNA;locus_tag=A5434_gt14;product=tRNA-Lys
+NC_029888.1	RefSeq	gene	7754	7957	.	+	.	ID=gene-A5434_gp09;Dbxref=GeneID:27218085;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=A5434_gp09
+NC_029888.1	RefSeq	CDS	7754	7957	.	+	0	ID=cds-YP_009245645.1;Parent=gene-A5434_gp09;Dbxref=Genbank:YP_009245645.1,GeneID:27218085;Name=YP_009245645.1;gbkey=CDS;gene=ATP8;locus_tag=A5434_gp09;product=ATP synthase F0 subunit 8;protein_id=YP_009245645.1;transl_table=2
+NC_029888.1	RefSeq	gene	7915	8595	.	+	.	ID=gene-A5434_gp08;Dbxref=GeneID:27218061;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=A5434_gp08
+NC_029888.1	RefSeq	CDS	7915	8595	.	+	0	ID=cds-YP_009245646.1;Parent=gene-A5434_gp08;Dbxref=Genbank:YP_009245646.1,GeneID:27218061;Name=YP_009245646.1;gbkey=CDS;gene=ATP6;locus_tag=A5434_gp08;product=ATP synthase F0 subunit 6;protein_id=YP_009245646.1;transl_table=2
+NC_029888.1	RefSeq	gene	8595	9378	.	+	.	ID=gene-A5434_gp07;Dbxref=GeneID:27218062;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=A5434_gp07
+NC_029888.1	RefSeq	CDS	8595	9378	.	+	0	ID=cds-YP_009245647.1;Parent=gene-A5434_gp07;Dbxref=Genbank:YP_009245647.1,GeneID:27218062;Name=YP_009245647.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=A5434_gp07;product=cytochrome c oxidase subunit III;protein_id=YP_009245647.1;transl_except=(pos:9378..9378%2Caa:TERM);transl_table=2
+NC_029888.1	RefSeq	gene	9379	9446	.	+	.	ID=gene-A5434_gt15;Dbxref=GeneID:27218063;Name=A5434_gt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt15
+NC_029888.1	RefSeq	tRNA	9379	9446	.	+	.	ID=rna-A5434_gt15;Parent=gene-A5434_gt15;Dbxref=GeneID:27218063;gbkey=tRNA;locus_tag=A5434_gt15;product=tRNA-Gly
+NC_029888.1	RefSeq	exon	9379	9446	.	+	.	ID=exon-A5434_gt15-1;Parent=rna-A5434_gt15;Dbxref=GeneID:27218063;gbkey=tRNA;locus_tag=A5434_gt15;product=tRNA-Gly
+NC_029888.1	RefSeq	gene	9447	9794	.	+	.	ID=gene-A5434_gp06;Dbxref=GeneID:27218086;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=A5434_gp06
+NC_029888.1	RefSeq	CDS	9447	9794	.	+	0	ID=cds-YP_009245648.1;Parent=gene-A5434_gp06;Dbxref=Genbank:YP_009245648.1,GeneID:27218086;Name=YP_009245648.1;Note=ND3;gbkey=CDS;gene=ND3;locus_tag=A5434_gp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009245648.1;transl_table=2
+NC_029888.1	RefSeq	gene	9796	9863	.	+	.	ID=gene-A5434_gt16;Dbxref=GeneID:27218064;Name=A5434_gt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt16
+NC_029888.1	RefSeq	tRNA	9796	9863	.	+	.	ID=rna-A5434_gt16;Parent=gene-A5434_gt16;Dbxref=GeneID:27218064;gbkey=tRNA;locus_tag=A5434_gt16;product=tRNA-Arg
+NC_029888.1	RefSeq	exon	9796	9863	.	+	.	ID=exon-A5434_gt16-1;Parent=rna-A5434_gt16;Dbxref=GeneID:27218064;gbkey=tRNA;locus_tag=A5434_gt16;product=tRNA-Arg
+NC_029888.1	RefSeq	gene	9866	10162	.	+	.	ID=gene-A5434_gp05;Dbxref=GeneID:27218087;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=A5434_gp05
+NC_029888.1	RefSeq	CDS	9866	10162	.	+	0	ID=cds-YP_009245649.1;Parent=gene-A5434_gp05;Dbxref=Genbank:YP_009245649.1,GeneID:27218087;Name=YP_009245649.1;Note=ND4L;gbkey=CDS;gene=ND4L;locus_tag=A5434_gp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009245649.1;transl_table=2
+NC_029888.1	RefSeq	gene	10156	11533	.	+	.	ID=gene-A5434_gp04;Dbxref=GeneID:27218065;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=A5434_gp04
+NC_029888.1	RefSeq	CDS	10156	11533	.	+	0	ID=cds-YP_009245650.1;Parent=gene-A5434_gp04;Dbxref=Genbank:YP_009245650.1,GeneID:27218065;Name=YP_009245650.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=A5434_gp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009245650.1;transl_except=(pos:11533..11533%2Caa:TERM);transl_table=2
+NC_029888.1	RefSeq	gene	11534	11601	.	+	.	ID=gene-A5434_gt17;Dbxref=GeneID:27218066;Name=A5434_gt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt17
+NC_029888.1	RefSeq	tRNA	11534	11601	.	+	.	ID=rna-A5434_gt17;Parent=gene-A5434_gt17;Dbxref=GeneID:27218066;gbkey=tRNA;locus_tag=A5434_gt17;product=tRNA-His
+NC_029888.1	RefSeq	exon	11534	11601	.	+	.	ID=exon-A5434_gt17-1;Parent=rna-A5434_gt17;Dbxref=GeneID:27218066;gbkey=tRNA;locus_tag=A5434_gt17;product=tRNA-His
+NC_029888.1	RefSeq	gene	11602	11660	.	+	.	ID=gene-A5434_gt18;Dbxref=GeneID:27218088;Name=A5434_gt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt18
+NC_029888.1	RefSeq	tRNA	11602	11660	.	+	.	ID=rna-A5434_gt18;Parent=gene-A5434_gt18;Dbxref=GeneID:27218088;codons=44%2C45;gbkey=tRNA;locus_tag=A5434_gt18;product=tRNA-Ser
+NC_029888.1	RefSeq	exon	11602	11660	.	+	.	ID=exon-A5434_gt18-1;Parent=rna-A5434_gt18;Dbxref=GeneID:27218088;codons=44%2C45;gbkey=tRNA;locus_tag=A5434_gt18;product=tRNA-Ser
+NC_029888.1	RefSeq	gene	11660	11730	.	+	.	ID=gene-A5434_gt19;Dbxref=GeneID:27218089;Name=A5434_gt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt19
+NC_029888.1	RefSeq	tRNA	11660	11730	.	+	.	ID=rna-A5434_gt19;Parent=gene-A5434_gt19;Dbxref=GeneID:27218089;codons=16%2C17%2C18%2C19;gbkey=tRNA;locus_tag=A5434_gt19;product=tRNA-Leu
+NC_029888.1	RefSeq	exon	11660	11730	.	+	.	ID=exon-A5434_gt19-1;Parent=rna-A5434_gt19;Dbxref=GeneID:27218089;codons=16%2C17%2C18%2C19;gbkey=tRNA;locus_tag=A5434_gt19;product=tRNA-Leu
+NC_029888.1	RefSeq	gene	11731	13560	.	+	.	ID=gene-A5434_gp03;Dbxref=GeneID:27218090;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=A5434_gp03
+NC_029888.1	RefSeq	CDS	11731	13560	.	+	0	ID=cds-YP_009245651.1;Parent=gene-A5434_gp03;Dbxref=Genbank:YP_009245651.1,GeneID:27218090;Name=YP_009245651.1;Note=ND5;gbkey=CDS;gene=ND5;locus_tag=A5434_gp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009245651.1;transl_table=2
+NC_029888.1	RefSeq	gene	13538	14056	.	-	.	ID=gene-A5434_gp02;Dbxref=GeneID:27218067;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=A5434_gp02
+NC_029888.1	RefSeq	CDS	13538	14056	.	-	0	ID=cds-YP_009245652.1;Parent=gene-A5434_gp02;Dbxref=Genbank:YP_009245652.1,GeneID:27218067;Name=YP_009245652.1;Note=ND6;gbkey=CDS;gene=ND6;locus_tag=A5434_gp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009245652.1;transl_table=2
+NC_029888.1	RefSeq	gene	14057	14125	.	-	.	ID=gene-A5434_gt20;Dbxref=GeneID:27218068;Name=A5434_gt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt20
+NC_029888.1	RefSeq	tRNA	14057	14125	.	-	.	ID=rna-A5434_gt20;Parent=gene-A5434_gt20;Dbxref=GeneID:27218068;gbkey=tRNA;locus_tag=A5434_gt20;product=tRNA-Glu
+NC_029888.1	RefSeq	exon	14057	14125	.	-	.	ID=exon-A5434_gt20-1;Parent=rna-A5434_gt20;Dbxref=GeneID:27218068;gbkey=tRNA;locus_tag=A5434_gt20;product=tRNA-Glu
+NC_029888.1	RefSeq	gene	14131	15273	.	+	.	ID=gene-A5434_gp01;Dbxref=GeneID:27218091;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=A5434_gp01
+NC_029888.1	RefSeq	CDS	14131	15273	.	+	0	ID=cds-YP_009245653.1;Parent=gene-A5434_gp01;Dbxref=Genbank:YP_009245653.1,GeneID:27218091;Name=YP_009245653.1;Note=CYTB;gbkey=CDS;gene=CYTB;locus_tag=A5434_gp01;product=cytochrome b;protein_id=YP_009245653.1;transl_table=2
+NC_029888.1	RefSeq	gene	15275	15341	.	+	.	ID=gene-A5434_gt21;Dbxref=GeneID:27218069;Name=A5434_gt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt21
+NC_029888.1	RefSeq	tRNA	15275	15341	.	+	.	ID=rna-A5434_gt21;Parent=gene-A5434_gt21;Dbxref=GeneID:27218069;gbkey=tRNA;locus_tag=A5434_gt21;product=tRNA-Thr
+NC_029888.1	RefSeq	exon	15275	15341	.	+	.	ID=exon-A5434_gt21-1;Parent=rna-A5434_gt21;Dbxref=GeneID:27218069;gbkey=tRNA;locus_tag=A5434_gt21;product=tRNA-Thr
+NC_029888.1	RefSeq	gene	15344	15411	.	-	.	ID=gene-A5434_gt22;Dbxref=GeneID:27218092;Name=A5434_gt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=A5434_gt22
+NC_029888.1	RefSeq	tRNA	15344	15411	.	-	.	ID=rna-A5434_gt22;Parent=gene-A5434_gt22;Dbxref=GeneID:27218092;gbkey=tRNA;locus_tag=A5434_gt22;product=tRNA-Pro
+NC_029888.1	RefSeq	exon	15344	15411	.	-	.	ID=exon-A5434_gt22-1;Parent=rna-A5434_gt22;Dbxref=GeneID:27218092;gbkey=tRNA;locus_tag=A5434_gt22;product=tRNA-Pro
+NC_029888.1	RefSeq	D_loop	15412	16309	.	+	.	ID=id-NC_029888.1:15412..16309;Note=control region;gbkey=D-loop
+
