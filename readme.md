@@ -19,7 +19,8 @@ MAC or LINUX users can install the required softwares following the links below.
 + [Geneious](https://www.geneious.com/)
 + [cutadapt](https://cutadapt.readthedocs.io)
 + [perl](https://www.perl.org/)
-
++ [mafft](https://mafft.cbrc.jp/alignment/software/)
++ [AMAS](https://github.com/marekborowiec/AMAS)
 
 ## Instructions
 1. download the repository
