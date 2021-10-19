@@ -1,0 +1,61 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "",
+    "format-version": "0.1",
+    "name": "alignment",
+    "steps": {
+        "0": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.221.3",
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool MAFFT",
+                    "name": "inputSequences"
+                }
+            ],
+            "label": null,
+            "name": "MAFFT",
+            "outputs": [
+                {
+                    "name": "outputAlignment",
+                    "type": "fasta"
+                }
+            ],
+            "position": {
+                "bottom": 363,
+                "height": 134,
+                "left": 618,
+                "right": 818,
+                "top": 229,
+                "width": 200,
+                "x": 618,
+                "y": 229
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/rnateam/mafft/rbc_mafft/7.221.3",
+            "tool_shed_repository": {
+                "changeset_revision": "15974dd17515",
+                "name": "mafft",
+                "owner": "rnateam",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__job_resource\": {\"__job_resource__select\": \"no\", \"__current_case__\": 0}, \"adjustdirection\": \" \", \"cond_flavour\": {\"flavourType\": \"mafft --auto\", \"__current_case__\": 1}, \"datatype\": \"\", \"ep\": \"0.123\", \"getTree\": \"false\", \"inputSequences\": {\"__class__\": \"RuntimeValue\"}, \"matrix_condition\": {\"matrix\": \"\", \"__current_case__\": 0}, \"op\": \"1.53\", \"outputFormat\": \"\", \"reorder\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "7.221.3",
+            "type": "tool",
+            "uuid": "8c29005b-59f6-423a-a5eb-e6320ce2aa91",
+            "workflow_outputs": [
+                {
+                    "label": "MAFFT on input dataset(s)",
+                    "output_name": "outputAlignment",
+                    "uuid": "9a393718-df54-45a8-9de2-f4127348eea7"
+                }
+            ]
+        }
+    },
+    "tags": [],
+    "uuid": "9978c00d-f944-4a18-b247-e2dd786a18cc",
+    "version": 1
+}
