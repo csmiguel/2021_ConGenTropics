@@ -28,7 +28,7 @@ We are going to see how to reconstruct phylogenetics trees using three different
 The R scripts for the exercises can be found under [`/scripts`](/scripts)
 
 ### dataset for exercises
-PopSet [156751975](https://www.ncbi.nlm.nih.gov/popset/156751975) of [*cytochrome b*] from several species of carnivores [publication](https://doi.org/10.1007/s10592-007-9364-5). Available at [/references/carnivores.fasta](/references/carnivores.fasta).
+PopSet [156751975](https://www.ncbi.nlm.nih.gov/popset/156751975) of [*cytochrome b*] from several species of carnivores [publication](https://doi.org/10.1007/s10592-007-9364-5). Available at [/references/carnivora.fasta](/references/carnivora.fasta).
 
 As outgroups I will use several species of pangolins from PopSet [2096847361](https://www.ncbi.nlm.nih.gov/popset/2096847361). Available at [/references/manidae.fasta](/references/manidae.fasta)
 
@@ -97,7 +97,7 @@ BEAST2 and RAxML can also be run in [CIPRESS](https://www.phylo.org/portal2/logi
     + remove outgroups and duplicated species from the alignment [/scripts/exercise5.r](/scripts/exercise5.r)
     + open and edit BEAUTi: `load` `/intermediate/cytb_beast.fasta`.
 + 2. run 3 chains in Beast.
-+ 3. check output in **Tracer**. Check `ESS` are always above 200, traces look fine, estimates seem OK.
++ 3. check output in **Tracer**. Check `ESS` are always above 200, traces look fine, estimates seem OK. Check convergence between chains.
 + 4. combine trees with **LogCombiner**. Combine trees from the 3 chains.
 + 5. get *Maximum clade credibility tree* in **TreeAnnotator**. Burnin 10%.
 + 6. open all trees with **DensiTree** or open Maximum clade credibility tree with FigTree.
