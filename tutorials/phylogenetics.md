@@ -25,12 +25,12 @@ We are going to see how to reconstruct phylogenetics trees using three different
 + online tree viewer http://etetoolkit.org/treeview/
 
 ## Exercises
-The R scripts for the exercises can be found under [`scripts`](scripts)
+The R scripts for the exercises can be found under [`/scripts`](/scripts)
 
 ### dataset for exercises
-PopSet [156751975](https://www.ncbi.nlm.nih.gov/popset/156751975) of [*cytochrome b*] from several species of carnivores [publication](https://doi.org/10.1007/s10592-007-9364-5). Available at [references/carnivores.fasta](references/carnivores.fasta).
+PopSet [156751975](https://www.ncbi.nlm.nih.gov/popset/156751975) of [*cytochrome b*] from several species of carnivores [publication](https://doi.org/10.1007/s10592-007-9364-5). Available at [/references/carnivores.fasta](/references/carnivores.fasta).
 
-As outgroups I will use several species of pangolins from PopSet [2096847361](https://www.ncbi.nlm.nih.gov/popset/2096847361). Available at [references/manidae.fasta](references/manidae.fasta)
+As outgroups I will use several species of pangolins from PopSet [2096847361](https://www.ncbi.nlm.nih.gov/popset/2096847361). Available at [/references/manidae.fasta](/references/manidae.fasta)
 
 Download fasta from the popsets to the `references` folder, and rename them as `references/carnivora.fasta` and `references/manidae.fasta`.
 
@@ -72,13 +72,13 @@ edgelabels(myTree$edge.length, bg="black", col="white", font=2)
 ```
 
 ### Exercise 2. Neighbour joining
-Open in Rstudio [`scripts/exercise2.r`](scripts/exercise2.r).
+Open in Rstudio [`/scripts/exercise2.r`](/scripts/exercise2.r).
 
 ### Exercise 3. Saturation plots
-Open in Rstudio [`scripts/exercise3.r`](scripts/exercise3.r).
+Open in Rstudio [`/scripts/exercise3.r`](/scripts/exercise3.r).
 
 ### Exercise 4. Maximum likelihood
-Open in Rstudio [`scripts/exercise4.r`](scripts/exercise4.r).
+Open in Rstudio [`/scripts/exercise4.r`](/scripts/exercise4.r).
 
 ### Exercise 5: Bayesian Inference in BEAST
 Download Beast2 and related packages in http://www.beast2.org/.
@@ -93,23 +93,11 @@ Download Beast2 and related packages in http://www.beast2.org/.
 
 BEAST2 and RAxML can also be run in [CIPRESS](https://www.phylo.org/portal2/login!input.action)
 
-+ 1. Format xml in BEAUTi (the formatted file is in [etc/cytb12.xml](etc/cytb12.xml))
-    + remove outgroups from the alignment
-```r
-# read cytb alignment
-cytb <- ape::read.FASTA("intermediate/cytb12.fasta")
-
-# remove outgroup sequences
-cytb_beast <- cytb[grep("MT87", names(cytb), invert = T)]
-
-# write fasta for beast
-ape::write.FASTA(cytb_beast,
-                 "intermediate/cytb_beast.fasta")
-```
-+ open BEAUTi an `load` `intermediate/cytb12.fasta`.
-       + in `Partitions` you can set different tree/clock/site_models, in case there were multiple partitions. But as in our case, we have only one partition, we will leave it as it is.
-    + `Site Model` is the model of molecular evolution: select HKY.
-    + `Clock Model` is the 
-
-+ 2. Partitions
-+ 3
++ 1. Format xml in BEAUTi (the formatted file is in [/etc/cytb12.xml](/etc/cytb12.xml))
+    + remove outgroups and duplicated species from the alignment [/scripts/exercise5.r](/scripts/exercise5.r)
+    + open and edit BEAUTi: `load` `/intermediate/cytb_beast.fasta`.
++ 2. run 3 chains in Beast.
++ 3. check output in **Tracer**. Check `ESS` are always above 200, traces look fine, estimates seem OK.
++ 4. combine trees with **LogCombiner**. Combine trees from the 3 chains.
++ 5. get *Maximum clade credibility tree* in **TreeAnnotator**. Burnin 10%.
++ 6. open all trees with **DensiTree** or open Maximum clade credibility tree with FigTree.
