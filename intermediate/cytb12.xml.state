@@ -1,0 +1,31 @@
+<itsabeastystatewerein version='2.0' sample='1364999'>
+<statenode id='Tree.t:cytb_beast'>((((((((20:6.458036234756159E-5,18:6.458036234756159E-5)52:0.0022879156034302114,21:0.002352495965777773)55:0.01645883464272931,19:0.018811330608507083)75:0.1379389881736908,(((25:0.0025139469036496187,24:0.0025139469036496187)54:0.002801708039662006,26:0.0053156549433116245)77:0.07751638089093331,27:0.08283203583424494)59:0.07391828294795295)72:0.03089871977314898,(22:0.02425672185529742,23:0.02425672185529742)41:0.16339231670004944)45:9.719415552233712E-4,((((35:0.0029787022369366003,36:0.0029787022369366003)46:0.06881894555805045,((32:0.016826504720637448,33:0.016826504720637448)71:0.01103967660513959,34:0.027866181325777038)65:0.04393146646921001)70:0.008592346204056828,((30:0.005121451840032711,31:0.005121451840032711)43:0.003079706244575542,(29:0.0046564823339882416,28:0.0046564823339882416)67:0.003544675750620011)66:0.07218883591443562)64:0.0252616291538261,((37:0.008844186113802265,38:0.008844186113802265)42:0.027581280393904582,(39:0.009005214477143574,40:0.009005214477143574)50:0.027420252030563273)53:0.06922615664516313)69:0.08296935695770027)78:0.04581267233051636,(12:0.1180314493018259,(((13:0.0021456064120900153,15:0.0021456064120900153)73:0.001948938262601967,(16:0.0018021519930439527,17:0.0018021519930439527)63:0.0022923926816480296)49:0.022507251408491698,14:0.02660179608318368)74:0.09142965321864222)60:0.11640220313926071)44:0.02554601971398407,((((0:0.0014160672141133625,1:0.0014160672141133625)61:0.1070485419174046,(2:0.022631508266372155,3:0.022631508266372155)58:0.0858331008651458)51:0.03957778918803839,(((4:0.002983905011517041,5:0.002983905011517041)62:0.00925639045624719,7:0.012240295467764232)68:0.006793776836712975,6:0.019034072304477206)56:0.12900832601507914)79:0.04309265107511964,(((8:0.0018973652371494223,10:0.0018973652371494223)47:7.512491347451715E-5,9:0.0019724901506239395)48:0.018039266955858977,11:0.020011757106482918)76:0.17112329228819306)57:0.06884462276039469)80:0.0</statenode>
+<statenode id='kappa.s:cytb_beast'>kappa.s:cytb_beast[1 1] (0.0,Infinity): 10.86477739541914 </statenode>
+<statenode id='ucldStdev.c:cytb_beast'>ucldStdev.c:cytb_beast[1 1] (0.0,Infinity): 0.47031385832824646 </statenode>
+<statenode id='rateCategories.c:cytb_beast'>rateCategories.c:cytb_beast[80 1] (0,79): 73 49 50 2 43 15 25 10 49 56 16 28 20 22 20 4 51 75 32 34 70 40 10 42 34 21 51 32 6 50 59 15 4 20 24 12 0 71 7 57 37 34 15 31 29 47 67 57 0 18 17 36 26 15 55 5 65 62 12 53 42 56 65 56 64 19 75 60 0 67 35 69 53 33 70 61 38 41 8 58 </statenode>
+<statenode id='mutationRate.s:cytb_beast'>mutationRate.s:cytb_beast[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='birthRate.t:cytb_beast'>birthRate.t:cytb_beast[1 1] (-Infinity,Infinity): 14.628238133479574 </statenode>
+<statenode id='ucldMean.c:cytb_beast'>ucldMean.c:cytb_beast[1 1] (-Infinity,Infinity): 0.18369475363466534 </statenode>
+<statenode id='freqParameter.s:cytb_beast'>freqParameter.s:cytb_beast[4 1] (0.0,1.0): 0.24311836699680434 0.23701445661732418 0.15863130235272732 0.3612358740331437 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"KappaScaler.s:cytb_beast","p":0.40965927259824003,"accept":312,"reject":865,"acceptFC":303,"rejectFC":848,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:cytb_beast","p":0.4557851142818909,"accept":9113,"reject":26460,"acceptFC":8889,"rejectFC":25782,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:cytb_beast","p":"NaN","accept":77136,"reject":42389,"acceptFC":75159,"rejectFC":41292,"rejectIv":40709,"rejectOp":40709},
+{"id":"CategoriesSwapOperator.c:cytb_beast","p":"NaN","accept":73813,"reject":46024,"acceptFC":72242,"rejectFC":44542,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:cytb_beast","p":"NaN","accept":86664,"reject":32500,"acceptFC":84647,"rejectFC":31464,"rejectIv":0,"rejectOp":0},
+{"id":"FixMeanMutationRatesOperator","p":1194.6361615190574,"accept":23758,"reject":0,"acceptFC":23137,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"YuleBirthRateScaler.t:cytb_beast","p":0.4378578805792387,"accept":10288,"reject":25457,"acceptFC":9734,"rejectFC":25121,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeScaler.t:cytb_beast","p":0.66975701547719,"accept":7126,"reject":28552,"acceptFC":7012,"rejectFC":27758,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeRootScaler.t:cytb_beast","p":0.466770908120582,"accept":3361,"reject":32555,"acceptFC":3239,"rejectFC":31764,"rejectIv":8924,"rejectOp":8924},
+{"id":"YuleModelUniformOperator.t:cytb_beast","p":"NaN","accept":158679,"reject":200391,"acceptFC":154716,"rejectFC":195254,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelSubtreeSlide.t:cytb_beast","p":0.8614914720458756,"accept":2287,"reject":177128,"acceptFC":2220,"rejectFC":172670,"rejectIv":86533,"rejectOp":86533},
+{"id":"YuleModelNarrow.t:cytb_beast","p":"NaN","accept":61868,"reject":117679,"acceptFC":60324,"rejectFC":114728,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelWide.t:cytb_beast","p":"NaN","accept":311,"reject":35554,"acceptFC":300,"rejectFC":34634,"rejectIv":18263,"rejectOp":18263},
+{"id":"YuleModelWilsonBalding.t:cytb_beast","p":"NaN","accept":268,"reject":35430,"acceptFC":244,"rejectFC":34592,"rejectIv":3494,"rejectOp":3494},
+{"id":"ucldMeanScaler.c:cytb_beast","p":0.6586379412728355,"accept":2448,"reject":9613,"acceptFC":2408,"rejectFC":9360,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedUpDownOperator.c:cytb_beast","p":0.43405992415823197,"accept":9866,"reject":25954,"acceptFC":9292,"rejectFC":25632,"rejectIv":0,"rejectOp":0},
+{"id":"FrequenciesExchanger.s:cytb_beast","p":0.04803660980527372,"accept":441,"reject":710,"acceptFC":419,"rejectFC":706,"rejectIv":0,"rejectOp":0}
+]}
+-->
