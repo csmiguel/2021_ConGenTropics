@@ -15,7 +15,7 @@ library(phangorn)
 temp <- ape::read.dna("intermediate/cytb12.fasta", format = "fasta")
 cytb <- phangorn::as.phyDat(temp) # convert to phangorn data structure
 
-set.seed(123)# set seed to ensure reproducibility
+set.seed(12233)# set seed to ensure reproducibility
 
 # create random starting tree object
 starting_tree <- ape::rtree(n = length(cytb),
