@@ -20,9 +20,9 @@ al_length <- length(cytb[[1]])
 # partition data into codon positions 1,2 and 3.
 cytb1 <-
   lapply(cytb, function(x) {
-  subsetdna <- x[seq(1, al_length, 3)]
-  class(subsetdna) <- "DNAbin"
-  subsetdna
+    subsetdna <- x[seq(1, al_length, 3)]
+    class(subsetdna) <- "DNAbin"
+    subsetdna
   })
 class(cytb1) <- "DNAbin"
 
@@ -42,7 +42,6 @@ cytb3 <-
     subsetdna
   })
 class(cytb3) <- "DNAbin"
-
 
 # for each codon position do saturation plots
 #https://en.wikipedia.org/wiki/Models_of_DNA_evolution#TN93_model_(Tamura_and_Nei_1993)

@@ -16,6 +16,7 @@ tree <-
 myTree <- ape::read.tree(text = tree)
 
 # plot tree
+pdf("exercise1_tree.pdf")
 plot(myTree,
      type = "phylogram",
      tip.color = "#447128",
@@ -25,3 +26,4 @@ plot(myTree,
      show.node.label = T)
 # label edges
 edgelabels(myTree$edge.length, bg="black", col="white", font=2)
+dev.off()
