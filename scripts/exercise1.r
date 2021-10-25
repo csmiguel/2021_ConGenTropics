@@ -1,6 +1,10 @@
-#install ape, if not installed
-install.packages("ape")
-
+###....................................................................
+# Conservation Genetics in the Tropics
+# (c) Miguel Camacho Sánchez
+# miguelcamachosanchez@gmail.com
+# October 2021
+#GOAL: Exercise 1. Plot tree exercise
+###....................................................................
 #load ape
 library(ape)
 
